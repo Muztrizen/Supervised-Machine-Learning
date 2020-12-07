@@ -5,16 +5,16 @@
 * Pruning.
 
 ## Decision Tree parameters:
-`criterion`: The function to measure the quality of a split. Supported criteria are "gini" for the Gini impurity and "entropy" for the information gain.
-`splitter`: The strategy used to choose the split at each node. Supported strategies are "best" to choose the best split and "random" to choose the best random split.
-`max_depth`: The maximum depth of the tree. If None, then nodes are expanded until all leaves are pure or until all leaves contain less than min_samples_split samples.
-`min_samples_split`: The minimum number of samples required to split an internal node.
-`min_samples_leaf`: The minimum number of samples required to be at a leaf node. A split point at any depth will only be considered if it leaves at least min_samples_leaf training samples in each of the left and right branches. This may have the effect of smoothing the model, especially in regression.
-`min_weight_fraction_leaf`: The minimum weighted fraction of the sum total of weights (of all the input samples) required to be at a leaf node. Samples have equal weight when sample_weight is not provided.
-`max_features`: The number of features to consider when looking for the best split.
-`max_leaf_nodes`: Grow a tree with max_leaf_nodes in best-first fashion. Best nodes are defined as relative reduction in impurity. If None then unlimited number of leaf nodes.
-`min_impurity_decrease`: A node will be split if this split induces a decrease of the impurity greater than or equal to this value.
-`min_impurity_split`: Threshold for early stopping in tree growth. A node will split if its impurity is above the threshold, otherwise it is a leaf.
+* `criterion`: The function to measure the quality of a split. Supported criteria are "gini" for the Gini impurity and "entropy" for the information gain.
+* `splitter`: The strategy used to choose the split at each node. Supported strategies are "best" to choose the best split and "random" to choose the best random split.
+* `max_depth`: The maximum depth of the tree. If None, then nodes are expanded until all leaves are pure or until all leaves contain less than min_samples_split samples.
+* `min_samples_split`: The minimum number of samples required to split an internal node.
+* `min_samples_leaf`: The minimum number of samples required to be at a leaf node. A split point at any depth will only be considered if it leaves at least min_samples_leaf training samples in each of the left and right branches. This may have the effect of smoothing the model, especially in regression.
+* `min_weight_fraction_leaf`: The minimum weighted fraction of the sum total of weights (of all the input samples) required to be at a leaf node. Samples have equal weight when sample_weight is not provided.
+* `max_features`: The number of features to consider when looking for the best split.
+* `max_leaf_nodes`: Grow a tree with max_leaf_nodes in best-first fashion. Best nodes are defined as relative reduction in impurity. If None then unlimited number of leaf nodes.
+* `min_impurity_decrease`: A node will be split if this split induces a decrease of the impurity greater than or equal to this value.
+* `min_impurity_split`: Threshold for early stopping in tree growth. A node will split if its impurity is above the threshold, otherwise it is a leaf.
 
 ## Common Decision Tree Algorithm
 * Gini index
