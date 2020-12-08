@@ -1,4 +1,11 @@
-# Tuning Parameter 
+# Advantages of Random Forest
+* **Accuracy & robustness**: It is considered as a very accurate and robust method because of the number of decision trees taking part in the process.
+* **Flexibility** It can be used for both, classification and regression problem.
+* **No Overfitting** The problem of overfitting doesn’t occur in this algorithm because it takes under consideration the average of predictions that are cancelling out the biases.
+* **Missing Value Handling** It can also handle the missing values. And it can be done by two ways, first one is to replace the continuous variables with median values and the other one is to calculate the proximity weighted average of missing values.
+* **Feature Importance** We can get the information about relative important feature that is contributing in a much better way for the calculation of accuracy.
+
+# Tuning Parameter [Refer here!] (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 __Tuning Parameter to Improve Predictive Power__
 * `max_depth`:
@@ -15,10 +22,9 @@ __Tuning Parameter to Improve Model Training Speed__
 * `random_state`: This parameter makes a solution easy to replicate. A definite value of random_state will always produce same results if given with same parameters and training data. I have personally found an ensemble with multiple models of different random states and all optimum parameters sometime performs better than individual random state.
 * `oob_score`: This is a random forest cross validation method. It is very similar to leave one out validation technique, however, this is so much faster. This method simply tags every observation used in different tress. And then it finds out a maximum vote score for every observation based on only trees which did not use this particular observation to train itself.
 
-
-
 ## Reference:
 * https://scikit-learn.org/stable/modules/ensemble.html#forest
 * https://www.youtube.com/watch?v=D_2LkhMJcfY
-* https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/#:~:text=n_estimators%20%3A,but%20makes%20your%20code%20slower.
 * https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+* https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/#:~:text=n_estimators%20%3A,but%20makes%20your%20code%20slower
+* https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/
