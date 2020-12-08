@@ -5,7 +5,7 @@
 * **Missing Value Handling** It can also handle the missing values. And it can be done by two ways, first one is to replace the continuous variables with median values and the other one is to calculate the proximity weighted average of missing values.
 * **Feature Importance** We can get the information about relative important feature that is contributing in a much better way for the calculation of accuracy.
 
-# [Tuning Parameter] (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+# [Tuning Parameter](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 __Tuning Parameter to Improve Predictive Power__
 * `max_depth`:
