@@ -18,5 +18,7 @@ __Tuning Parameter to Improve Model Training Speed__
 
 
 ## Reference:
-1. https://www.youtube.com/watch?v=D_2LkhMJcfY
-2. https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/#:~:text=n_estimators%20%3A,but%20makes%20your%20code%20slower.
+* https://scikit-learn.org/stable/modules/ensemble.html#forest
+* https://www.youtube.com/watch?v=D_2LkhMJcfY
+* https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/#:~:text=n_estimators%20%3A,but%20makes%20your%20code%20slower.
+* https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
