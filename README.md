@@ -1,2 +1,2 @@
 # Supervised-Machine-Learning
-Gather Supervised Machine Learning algorithms for regression and classification problems
+This repo contains Supervised Machine Learning algorithms for regression and classification problems
