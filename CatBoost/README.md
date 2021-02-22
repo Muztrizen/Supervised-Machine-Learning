@@ -3,7 +3,7 @@
 2. Classification
 
 
-## Official Page
-https://catboost.ai/
+## Resources
+- https://catboost.ai/
 
 
