@@ -1,4 +1,6 @@
 ## Applications
+1. Regression
+2. Classification
 
 ## Resources
 - https://scikit-learn.org/stable/modules/ensemble.html#forest
